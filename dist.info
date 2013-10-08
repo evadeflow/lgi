@@ -1,0 +1,15 @@
+--- This dist file is part of LuaDist project
+
+name = "lgi"
+version = "0.6devel"
+
+desc = "Lua bindings to GObject libraries"
+author = "Anonymous"
+license = "MIT/X11"
+url = "http://github.com/pavouk/lgi"
+maintainer = "John Doe"
+
+depends = {
+	"lua ~> 5.1",
+	"libgobject-introspection >=1.0"
+}
